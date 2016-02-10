@@ -6,7 +6,12 @@
 }
 
 body {
-  padding: 0;
+  background-image: url("https://oliviacunning.files.wordpress.com/2012/09/depositphotos_3720977_original.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+
+    padding: 0;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -60,9 +65,9 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1768px) {
   .container {
-    max-width: 730px;
+    max-width: 1730px;
   }
 
   /* Remove the padding we set earlier */
@@ -81,3 +86,94 @@ body {
     border-bottom: 0;
   }
 }
+
+
+
+
+
+/* LINKS to FB   */
+td > a:hover > h1 { 
+  
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+td > a:link, a:active > h1 { 
+
+  text-decoration: none;
+}
+
+
+td > a > img {
+width: 150px;
+margin-bottom: 20px;
+margin-top:10px;
+margin-left:35px;
+}
+
+
+
+.fbBox {
+  width: 200px;
+  position: relative;
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 2.5px dotted #e5e5e5;
+}
+
+
+.nameAndText {
+  background-color: rgba(255,255,255,0.8);
+
+}
+
+/* TITLE */
+td > a > h1 {
+  font-size:15px;
+  width:240px;
+  text-transform: uppercase;
+  color:black;
+  font-weight: ;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  letter-spacing: 3px;
+  line-height: 22px;
+  
+}
+
+/* TEXT */
+td > p {
+  width:250px;
+  font-size:13px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Didact Gothic";
+}
+
+/* TIME */
+h6{
+  font-family: "Open Sans";
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+
+table{
+
+box-shadow: 
+0 0 0 1px #494949,
+0 0 0 10px rgba(255,255,255,0.6),
+0 0 0 18px rgba(255,255,255,0.6);
+}
+
+
+

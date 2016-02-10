@@ -1,0 +1,38 @@
+			
+
+
+
+
+<table> 
+<tbody >
+	<tr ng-repeat= "article in news | limitTo:15:0">
+		
+		<td class="fbBox">
+
+			<h6> {{article.updated_time | date: "dd.MM.yyyy" }} </h6>
+
+			<a href="{{article.link}}">
+					<img class="fbImg"ng-src="{{article.picture}}"/> 
+			</a>
+
+				
+				<td class="nameAndText">
+					<a href="{{article.link}}">
+						<h1 class="nam">{{article.name}}</h1>
+					</a>
+			
+					<p>{{article.description}}</p>
+				</td>
+			
+		</tr>
+	</td>
+
+</tbody>
+</table>
+
+
+	
+	
+
+
+
