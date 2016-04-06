@@ -16,7 +16,7 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch',
+    'ngMaterial',
     'facebook'
   ])
   .config(function(FacebookProvider) {
